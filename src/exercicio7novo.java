@@ -24,7 +24,7 @@ public class exercicio7novo {
         if (resultado >= 6) {
             System.out.println(" Aprovado");
         }
-        else if (resultado < 5.9) {
+        else if (resultado <= 5.9) {
             System.out.println(" Reprovado");
         }
 
