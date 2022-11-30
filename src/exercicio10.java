@@ -8,11 +8,11 @@ public class exercicio10 {
         System.out.println("Escolha um numero: ");
         int escolha = ler.nextInt();
 
-        if (escolha < 0 || escolha > 6) {
+        if (escolha < 1 || escolha > 6) {
             System.out.println("Escolha um numero entre 0 e 6!");
         } else {
 
-            int numero = random.nextInt(6);
+            int numero = random.nextInt( 6) + 1;
             System.out.println("O numero sorteado de 0 a 6: " + numero);
 
             if (escolha == numero) {
