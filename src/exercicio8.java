@@ -19,9 +19,5 @@ public class exercicio8 {
             double C = (temp - 32) / 1.8;
             System.out.println("O resultado de Fahrenheit para Celsius é: " + C + " C°");
         }
-
-
-
-
     }
-    }
+}
