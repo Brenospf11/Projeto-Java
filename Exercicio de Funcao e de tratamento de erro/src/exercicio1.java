@@ -15,21 +15,16 @@ public class exercicio1 {
                 Scanner ler1 = new Scanner(System.in);
                 System.out.println("Qual a medida? ");
                 valor = ler1.nextLine();
-                if (valor.toLowerCase().equals('f') || valor.toLowerCase().equals('c')){
+                if (valor.equals("f") || valor.equals("F")){
                     continuar = true;
-
+                    calcularFahreint(temp);
+                } if (valor.equals("c") || valor.equals("C")) {
+                    continuar = true;
+                    calcularCelsius(temp);
                 }
             } catch(Exception e) {
             }
         } while (!continuar);
-
-
-        if (valor.equals("F")) {
-            calcularFahreint(temp);
-        }
-        else if (valor.equals("C")) {
-            calcularCelsius(temp);
-        }
     }
     static void calcularFahreint(double temp) {
         double F = temp * 1.8 + 32;
