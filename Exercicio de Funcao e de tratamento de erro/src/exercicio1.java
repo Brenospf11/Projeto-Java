@@ -16,12 +16,11 @@ public class exercicio1 {
                 System.out.println("Qual a medida? ");
                 valor = ler1.nextLine();
                 if (valor.equals("f") || valor.equals("F")){
-                    continuar = true;
                     calcularFahreint(temp);
                 } if (valor.equals("c") || valor.equals("C")) {
-                    continuar = true;
                     calcularCelsius(temp);
                 }
+                continuar = true;
             } catch(Exception e) {
             }
         } while (!continuar);

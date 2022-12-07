@@ -8,7 +8,6 @@ public class jogo {
             }
         }
     }
-
     public void mostrar() {
         for (int l = 0; l < 3; l++){
             for (int c = 0; c < 3; c++){
@@ -46,7 +45,6 @@ public class jogo {
         }
         return 3;
     }
-
     public boolean jogada(int jogador, int linha, int coluna){
         if ((linha < 0) || (linha > 2)) {
             return false;
@@ -60,7 +58,6 @@ public class jogo {
         jogo1[linha][coluna] = jogador;
         return true;
         }
-
         public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         jogo jogo2 = new jogo();
