@@ -2,9 +2,7 @@ import java.util.Scanner;
 public class exercicio1 {
     public static void main(String[] args){
         Scanner ler = new Scanner(System.in);
-
-        System.out.println("Digite 5 numeros: ");
-        int limite = ler.nextInt();
+        System.out.println("Digite 4 numero: ");
 
         int[] numeroLista = new int[4];
         int maior = numeroLista[0], menor = Integer.MAX_VALUE;

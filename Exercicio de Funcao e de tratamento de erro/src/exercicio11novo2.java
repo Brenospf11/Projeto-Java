@@ -7,17 +7,22 @@ public class exercicio11novo2 {
          boolean continuar;
 
          do {
+             continuar = true;
              try {
-                 Scanner ler =new Scanner(System.in);
+                 Scanner ler = new Scanner(System.in);
                  System.out.println("Digite o seu Salario: ");
                  salario = ler.nextDouble();
-                 continuar = true;
+                 if (salario < 0){
+                     System.out.println("Coloque o salario certo!!");
+                     continuar = false;
+                 } else {
+                     continuar = true;
+                 }
              } catch (Exception e) {
-                 continuar = false;
              }
          } while (!continuar);
 
-        if (salario <= 1212 ) {
+        if (salario <= 1212) {
             calculo1(salario);
         } else if (salario <= 2437.35) {
            calculo2(salario);
@@ -25,7 +30,7 @@ public class exercicio11novo2 {
             calculo3(salario);
         } else if (salario <= 7087.22) {
             calculo4(salario);
-        } else {
+        } else if (salario >= 7087.23) {
             System.out.println("A contribuicao do INSS foi: 828.38");
         }
     }
