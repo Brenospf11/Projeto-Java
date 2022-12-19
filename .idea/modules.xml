@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Aula1/Aula1.iml" filepath="$PROJECT_DIR$/Aula1/Aula1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula2/Aula2.iml" filepath="$PROJECT_DIR$/Aula2/Aula2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio de Funcao e de tratamento de erro/Exercicio de Funcao e de tratamento de erro.iml" filepath="$PROJECT_DIR$/Exercicio de Funcao e de tratamento de erro/Exercicio de Funcao e de tratamento de erro.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicios de vetores e matrizes/Exercicios de vetores e matrizes.iml" filepath="$PROJECT_DIR$/Exercicios de vetores e matrizes/Exercicios de vetores e matrizes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicios sobre lacos/Exercicios sobre lacos.iml" filepath="$PROJECT_DIR$/Exercicios sobre lacos/Exercicios sobre lacos.iml" />

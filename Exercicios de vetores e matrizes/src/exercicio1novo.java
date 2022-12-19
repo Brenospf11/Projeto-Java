@@ -10,11 +10,7 @@ public class exercicio1novo {
                     Scanner ler = new Scanner(System.in);
                     System.out.println("Digite 4 numeros: ");
                     int num = ler.nextInt();
-                    if (num < 0) {
-                        continuar = false;
-                    } else {
-                        continuar = true;
-                    }
+                    continuar = num >= 0;
                 } catch (Exception e) {
                 }
             } while (!continuar);

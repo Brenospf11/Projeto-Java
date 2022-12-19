@@ -17,7 +17,7 @@ public class exercicio3 {
 
             String[] nomesPedidos = new String[limite];
             for (int i = 0; i < limite; i++){
-                System.out.println("digite o proximo nome: ");
+                System.out.println("Digite o proximo nome: ");
                 nomesPedidos[i] = ler.next();
             }
 
