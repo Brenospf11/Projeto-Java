@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package boletim;
 
+import java.util.Scanner;
 public class boletimEntrda {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);

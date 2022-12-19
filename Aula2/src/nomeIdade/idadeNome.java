@@ -1,11 +1,13 @@
+package nomeIdade;
+
 import java.util.Scanner;
 
 public class idadeNome {
         Scanner ler = new Scanner(System.in);
-        String [] aluno = new String[5];
-        int [] idade = new int [5];
+        String [] aluno = new String[3];
+        int [] idade = new int [3];
         int menor = 1000, maior;
-        String nomem = "" , nomev = "";
+        String nomem = "", nomev = "";
         float soma, media;
     public void entradaDado() {
 

@@ -1,3 +1,5 @@
+package boletim;
+
 import java.util.Scanner;
 
 public class boletim {
@@ -8,22 +10,27 @@ public class boletim {
     double nota3;
     double total;
     int materia;
+    String nomeAluno = "";
     String materias = "";
     public void entradaDadosNovo(){
 
-                System.out.println("---------Materias a calcular-----------");
-                System.out.println("---------------[1]Artes ---------------");
-                System.out.println("--------------[2]Química --------------");
-                System.out.println("------------- [3] Física --------------");
-                System.out.println("-------------[4] Biologia -------------");
-                System.out.println("------------[5] Matemática ------------");
-                System.out.println("--------------[6] Inglês --------------");
-                System.out.println("-------------[7] Português ------------");
-                System.out.println("-------------[8] Geografia ------------");
-                System.out.println("-------------[9] Filosofia ------------");
-                System.out.println("------------[10] Sociologia -----------");
-                System.out.println("---------[11] Educacao Física ---------");
-                System.out.println("-------------[12] História ------------");
+        System.out.println("Qual o nome do aluno? ");
+        nomeAluno = ler.next();
+
+        System.out.println("Seje Bem-vindo " + nomeAluno);
+        System.out.println("----------Materias a calcular----------");
+        System.out.println("---------------[1]Artes ---------------");
+        System.out.println("--------------[2]Química --------------");
+        System.out.println("------------- [3] Física --------------");
+        System.out.println("-------------[4] Biologia -------------");
+        System.out.println("------------[5] Matemática ------------");
+        System.out.println("--------------[6] Inglês --------------");
+        System.out.println("-------------[7] Português ------------");
+        System.out.println("-------------[8] Geografia ------------");
+        System.out.println("-------------[9] Filosofia ------------");
+        System.out.println("------------[10] Sociologia -----------");
+        System.out.println("---------[11] Educacao Física ---------");
+        System.out.println("-------------[12] História ------------");
 
                 do {
                     continuar = false;
@@ -139,11 +146,11 @@ public class boletim {
             total = (nota1 + nota2 + nota3) / 3;
 
             if (total >= 7) {
-                System.out.println("Parabens voce foi aprovado!!" + " Sua nota em " + materias + " foi: " + total);
-            } else if (total < 7 || total >= 6) {
-                System.out.println("Voce esta em recuperacao!!" + " Sua nota em " + materias + " foi: " + total);
-            } else if (total < 6) {
-                System.out.println("Voce reprovou!!" + " Sua nota em " + materias + " foi: " + total);
+                System.out.println("Parabens " + nomeAluno + " foi aprovado!!" + " Sua nota em " + materias + " foi: " + total);
+            } else if (total < 7 && total >= 6) {
+                System.out.println(nomeAluno + " esta em recuperacao!!" + " Sua nota em " + materias + " foi: " + total);
+            } else {
+                System.out.println(nomeAluno + " reprovou!!" + " Sua nota em " + materias + " foi: " + total);
             }
         }
     }

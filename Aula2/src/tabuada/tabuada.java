@@ -1,3 +1,5 @@
+package tabuada;
+
 import java.util.Scanner;
 public class tabuada {
     Scanner ler = new Scanner(System.in);
