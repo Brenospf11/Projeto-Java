@@ -4,11 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Aula1/Aula1.iml" filepath="$PROJECT_DIR$/Aula1/Aula1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula2/Aula2.iml" filepath="$PROJECT_DIR$/Aula2/Aula2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula3/Aula3.iml" filepath="$PROJECT_DIR$/Aula3/Aula3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula4/Aula4.iml" filepath="$PROJECT_DIR$/Aula4/Aula4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio de Funcao e de tratamento de erro/Exercicio de Funcao e de tratamento de erro.iml" filepath="$PROJECT_DIR$/Exercicio de Funcao e de tratamento de erro/Exercicio de Funcao e de tratamento de erro.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicios de vetores e matrizes/Exercicios de vetores e matrizes.iml" filepath="$PROJECT_DIR$/Exercicios de vetores e matrizes/Exercicios de vetores e matrizes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicios sobre lacos/Exercicios sobre lacos.iml" filepath="$PROJECT_DIR$/Exercicios sobre lacos/Exercicios sobre lacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/jogo da velha/jogo da velha.iml" filepath="$PROJECT_DIR$/jogo da velha/jogo da velha.iml" />
       <module fileurl="file://$PROJECT_DIR$/teste.iml" filepath="$PROJECT_DIR$/teste.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
     </modules>
   </component>
 </project>
