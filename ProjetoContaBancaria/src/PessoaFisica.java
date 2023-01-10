@@ -1,2 +1,2 @@
-public class PessoaFisica {
+public abstract class PessoaFisica {
 }

@@ -21,7 +21,8 @@ public class Main {
                         System.out.println("[1] Conta Corrente");
                         System.out.println("[2] Conta Poupanca");
                         System.out.println("[3] Conta Invesntimento");
-                        System.out.println("[4] Sair");
+                        System.out.println("[4] Voltar");
+                        System.out.println("[5] Sair");
                         System.out.println("Escolha o que voce precisa (PF) : ");
                         int PF = ler.nextInt();
                         switch (PF) {
@@ -38,6 +39,9 @@ public class Main {
                                 break;
 
                             case 4:
+
+
+                            case 5:
                                 System.exit(0);
 
                             default:
@@ -48,7 +52,8 @@ public class Main {
                         System.out.println("------------------------");
                         System.out.println("[1] Conta Corrente");
                         System.out.println("[2] Conta Investimento");
-                        System.out.println("[3] Sair");
+                        System.out.println("[3] Voltar");
+                        System.out.println("[4] Sair");
                         System.out.println("Escolha o que voce precisa (PJ) : ");
                         int PJ = ler.nextInt();
                         switch(PJ) {
@@ -61,6 +66,9 @@ public class Main {
                                 break;
 
                             case 3:
+
+
+                            case 4:
                                 System.exit(0);
 
                             default:
