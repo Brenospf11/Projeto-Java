@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ContaInvestimentoPF extends PessoaFisica {
+public class ContaCorrentePJ extends PessoaJuridica {
     Scanner ler = new Scanner(System.in);
     private int conta = 12;
     private String numConta = "1231";
@@ -8,7 +8,6 @@ public class ContaInvestimentoPF extends PessoaFisica {
     private String operacao = "314";
     private String agencia = "32";
     private double saldo = 10000;
-    private double contaInvestimento;
 
     public int getConta() {
         return conta;
@@ -50,23 +49,14 @@ public class ContaInvestimentoPF extends PessoaFisica {
         this.saldo = saldo;
     }
 
-    public double getContaInvestimento() {
-        return contaInvestimento;
-    }
-
-    public void setContaInvestimento(double contaInvestimento) {
-        this.contaInvestimento = contaInvestimento;
-    }
-
     @Override
     public String toString() {
-        return "ContaInvestimentoPF{" +
+        return "ContaInvestimentoPJ{" +
                 "conta=" + conta +
                 ", numConta='" + numConta + '\'' +
                 ", operacao='" + operacao + '\'' +
                 ", agencia='" + agencia + '\'' +
                 ", saldo=" + saldo +
-                ", contaInvestimento=" + contaInvestimento +
                 '}';
     }
 
@@ -97,24 +87,19 @@ public class ContaInvestimentoPF extends PessoaFisica {
         System.out.println("");
     }
 
-    public void investir(double investimento) {
-        setSaldo(getSaldo() - investimento);
-        setContaInvestimento(getContaInvestimento() + investimento);
-        System.out.println("");
 
-    }
+
 
     public void operacao() {
         System.out.println("------------");
-        System.out.println("Qual operação deseja realizar ?");
+        System.out.println("Qual operacao deseja fazer");
         System.out.println("--------------");
         System.out.println("[1] saque");
         System.out.println("[2] tranferencia");
         System.out.println("[3] depositar");
-        System.out.println("[4] Investimento");
-        System.out.println("[5] Ver saldo");
-        System.out.println("[6] voltar");
-        System.out.println("[7] sair");
+        System.out.println("[4] Ver saldo");
+        System.out.println("[5] voltar");
+        System.out.println("[6] sair");
         System.out.println("----------------");
         System.out.println();
         System.out.println("Escolha sua operacao");
@@ -163,5 +148,4 @@ public class ContaInvestimentoPF extends PessoaFisica {
         }
 
     }
-
 }
