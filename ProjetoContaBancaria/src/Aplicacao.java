@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Aplicacao {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        boolean continuar;
         ContaInvestimentoPJ INPJ = new ContaInvestimentoPJ();
         ContaInvestimentoPF INPF = new ContaInvestimentoPF();
         ContaCorrentePJ CONPJ = new ContaCorrentePJ();
@@ -11,7 +10,6 @@ public class Aplicacao {
         ContaPoupanca POU = new ContaPoupanca();
 
         do {
-            continuar = false;
             try {
                 System.out.println("\n----------*** BEM VINDO AO BANCO START TECH ***----------");
                 System.out.println();
@@ -25,47 +23,48 @@ public class Aplicacao {
                         POU.Perguntas();
                         System.out.println("\nDigite 1 para acessar o menu da conta:");
                         int numero = ler.nextInt();
-                        switch (numero) {
-                            case 1:
-                                POU.imprimir();
-                                System.out.println("\n________________________________________");
-                                System.out.println("[1] Conta Corrente");
-                                System.out.println("[2] Conta Poupança");
-                                System.out.println("[3] Conta Investimento");
-                                System.out.println("[4] Voltar");
-                                System.out.println("[5] Sair");
-                                System.out.println("\nEscolha qual operação você deseja realizar (PF):");
-                                int PF = ler.nextInt();
-                                switch (PF) {
-                                    case 1:
-                                        CONPF.operacao();
-                                        CONPF.realizar();
-                                        break;
-                                    case 2:
-                                        POU.operacao();
-                                        POU.realizar();
-                                        break;
-                                    case 3:
-                                        INPF.operacao();
-                                        INPF.realizar();
-                                        break;
-                                    case 4:
+                        if (numero == 1) {
+                            POU.imprimir();
+                            System.out.println("\n________________________________________");
+                            System.out.println("[1] Conta Corrente");
+                            System.out.println("[2] Conta Poupança");
+                            System.out.println("[3] Conta Investimento");
+                            System.out.println("[4] Voltar");
+                            System.out.println("[5] Sair");
+                            System.out.println("\nEscolha qual operação você deseja realizar (PF):");
+                            int PF = ler.nextInt();
+                            switch (PF) {
+                                case 1:
+                                    CONPF.imprimir();
+                                    CONPF.operacao();
+                                    CONPF.realizar();
+                                    break;
+                                case 2:
+                                    POU.imprimirCP();
+                                    POU.operacao();
+                                    POU.realizar();
+                                    break;
+                                case 3:
+                                    INPF.imprimirCIPF();
+                                    INPF.operacao();
+                                    INPF.realizar();
+                                    break;
+                                case 4:
 
 
-                                    case 5:
-                                        System.exit(0);
+                                case 5:
+                                    System.exit(0);
 
-                                    default:
-                                        System.out.println("\nSELECIONE UMA OPÇÃO VALIDA!!!");
-                                }
+                                default:
+                                    System.out.println("\nSELECIONE UMA OPÇÃO VALIDA!!!");
+                            }
                         }
 
                     case 2:
                         INPJ.Perguntas();
                         System.out.println("Digite 1");
                         int Pessoas1 = ler.nextInt();
-                        switch (Pessoas1) {
-                            case 1:
+                        if (Pessoas1 == 1) {
                             System.out.println("________________________________________");
                             System.out.println("[1] Conta Corrente");
                             System.out.println("[2] Conta Investimento");
@@ -75,14 +74,15 @@ public class Aplicacao {
                             int PJ = ler.nextInt();
                             switch (PJ) {
                                 case 1:
+                                    CONPJ.imprimirCCPJ();
                                     CONPJ.operacao();
                                     CONPJ.realizar();
                                     break;
                                 case 2:
-                                        System.out.println(INPJ.toString());
-                                        INPJ.operacao();
-                                        INPJ.realizar();
-                                        break;
+                                    INPJ.imprimirCIPJ();
+                                    INPJ.operacao();
+                                    INPJ.realizar();
+                                    break;
                                 case 3:
 
 

@@ -71,6 +71,10 @@ public class ContaInvestimentoPJ extends PessoaJuridica{
                 '}';
     }
 
+    public void imprimirCIPJ(){
+        System.out.println(toString());
+    }
+
     public void verSaldo() {
         System.out.println("Seu saldo atual é R$" + getSaldo());
     }
@@ -98,7 +102,7 @@ public class ContaInvestimentoPJ extends PessoaJuridica{
             System.out.println("voce nao tem saldo suficiente para raealizar a operacao ");
         else
             setSaldo(getSaldo() - transferencia - valorTransferencia);
-            System.out.println("Você transferiu R$" + transferencia );
+            System.out.println("Você transferiu R$" + transferencia + " tera que pagar de taxa R$" + valorTransferencia);
     }
 
     public void investir(double investimento) {

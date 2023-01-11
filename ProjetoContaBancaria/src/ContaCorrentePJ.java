@@ -60,6 +60,10 @@ public class ContaCorrentePJ extends PessoaJuridica {
                 '}';
     }
 
+    public void imprimirCCPJ() {
+        System.out.println(toString());
+    }
+
     public void verSaldo() {
         System.out.println("" + getSaldo());
     }
@@ -95,8 +99,8 @@ public class ContaCorrentePJ extends PessoaJuridica {
         System.out.println("Qual operacao deseja fazer");
         System.out.println("--------------");
         System.out.println("[1] saque");
-        System.out.println("[2] tranferencia");
-        System.out.println("[3] depositar");
+        System.out.println("[2] Deposito");
+        System.out.println("[3] Transferencia");
         System.out.println("[4] Ver saldo");
         System.out.println("[5] voltar");
         System.out.println("[6] sair");
@@ -113,26 +117,25 @@ public class ContaCorrentePJ extends PessoaJuridica {
             case 1:
                 System.out.println("Saque");
                 System.out.println("Digite o valor que deseja sacar");
-                double valor = ler.nextDouble();
-                saque(valor);
+                double saqueValor = ler.nextDouble();
+                saque(saqueValor);
                 break;
 
             case 2:
                 System.out.println("Deposito");
                 System.out.println("Digite o valor que deseja depositar");
-                double valor1 = ler.nextDouble();
-                depositar(valor1);
+                double depositarValor = ler.nextDouble();
+                depositar(depositarValor);
                 break;
 
             case 3:
                 System.out.println("Transferencia");
                 System.out.println("Digite o valor que deseja tranferir");
-                double valor2 = ler.nextDouble();
-                depositar(valor2);
+                double transferencia = ler.nextDouble();
+                tranferir(transferencia);
                 break;
 
             case 4:
-                System.out.println("Seu saldo é ");
                 verSaldo();
                 break;
 
