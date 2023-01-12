@@ -4,60 +4,46 @@ public class ContaInvestimentoPF extends PessoaFisica {
     Scanner ler = new Scanner(System.in);
     private int conta = 12;
     private String numConta = "1231";
-
     private String operacao = "314";
     private String agencia = "32";
     private double saldo = 10000;
     private double contaInvestimento;
-
     public int getConta() {
         return conta;
     }
-
     public void setConta(int conta) {
         this.conta = conta;
     }
-
     public String getNumConta() {
         return numConta;
     }
-
     public void setNumConta(String numConta) {
         this.numConta = numConta;
     }
-
     public String getOperacao() {
         return operacao;
     }
-
     public void setOperacao(String operacao) {
         this.operacao = operacao;
     }
-
     public String getAgencia() {
         return agencia;
     }
-
     public void setAgencia(String agencia) {
         this.agencia = agencia;
     }
-
     public double getSaldo() {
         return saldo;
     }
-
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-
     public double getContaInvestimento() {
         return contaInvestimento;
     }
-
     public void setContaInvestimento(double contaInvestimento) {
         this.contaInvestimento = contaInvestimento;
     }
-
     @Override
     public String toString() {
         return "ContaInvestimentoPF{" +
@@ -72,11 +58,9 @@ public class ContaInvestimentoPF extends PessoaFisica {
     public void imprimirCIPF(){
         System.out.println(toString());
     }
-
     public void verSaldo() {
         System.out.println("" + getSaldo());
     }
-
     public void saque(double saqueValor) {
         if (getSaldo() < 0 || saqueValor > getSaldo())
             System.out.println("");
@@ -85,13 +69,10 @@ public class ContaInvestimentoPF extends PessoaFisica {
         System.out.println("");
 
     }
-
     public void depositar(double depositarValor) {
         setSaldo(depositarValor + getSaldo());
         System.out.println("");
-
     }
-
     public void tranferir(double tranferencia) {
         if (getSaldo() < 0 || tranferencia > getSaldo())
             System.out.println("");
@@ -99,14 +80,11 @@ public class ContaInvestimentoPF extends PessoaFisica {
             setSaldo(getSaldo() - tranferencia);
         System.out.println("");
     }
-
     public void investir(double investimento) {
         setSaldo(getSaldo() - investimento);
         setContaInvestimento(getContaInvestimento() + investimento);
         System.out.println("");
-
     }
-
     public void operacao() {
         System.out.println("------------");
         System.out.println("Qual operação deseja realizar ?");
@@ -116,17 +94,14 @@ public class ContaInvestimentoPF extends PessoaFisica {
         System.out.println("[3] Transferencia");
         System.out.println("[4] Investimento");
         System.out.println("[5] Ver saldo");
-        System.out.println("[6] voltar");
-        System.out.println("[7] sair");
+        System.out.println("[6] sair");
         System.out.println("----------------");
         System.out.println();
         System.out.println("Escolha sua operacao");
         realizar();
     }
-
     public void realizar() {
         int operacao = ler.nextInt();
-
         switch (operacao) {
             case 1:
                 System.out.println("Saque");
@@ -134,43 +109,32 @@ public class ContaInvestimentoPF extends PessoaFisica {
                 double saqueValor = ler.nextDouble();
                 saque(saqueValor);
                 break;
-
             case 2:
                 System.out.println("Deposito");
                 System.out.println("Digite o valor que deseja depositar");
                 double depositarValor = ler.nextDouble();
                 depositar(depositarValor);
                 break;
-
             case 3:
                 System.out.println("Transferencia");
                 System.out.println("Digite o valor que deseja tranferir");
                 double transferencia = ler.nextDouble();
                 tranferir(transferencia);
                 break;
-
             case 4:
                 System.out.println("Investimento");
                 System.out.println("Digite o valor que deseja investir");
                 double investimento = ler.nextDouble();
                 investir(investimento);
                 break;
-
             case 5:
                 verSaldo();
                 break;
-
             case 6:
-
-
-            case 7:
                 System.exit(0);
-
             default:
-                System.out.println("Selecione a operacao que tenha");
+                System.out.println("Selecione a opercao valida");
                 operacao();
         }
-
     }
-
 }
