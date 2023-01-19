@@ -28,18 +28,18 @@ public class Main {
                     "                                                           ");
 
             System.out.println();
-            System.out.println("---------------------------------");
+            System.out.println("|-------------------------------|");
             System.out.println("|  [1] Ligas                    |");
             System.out.println("|  [2] Torneios                 |");
             System.out.println("|  [3] Copas                    |");
             System.out.println("|  [4] Tabelas de Campeonatos   |");
             System.out.println("|  [5] Sair                     |");
-            System.out.println("---------------------------------");
+            System.out.println("|-------------------------------|");
             System.out.println("Digite oque deseja: ");
             int numero = ler.nextInt();
             switch (numero){
                 case 1:
-                    System.out.println("------------------------");
+                    System.out.println("|----------------------|");
                     System.out.println("|  [1] Premier League  |");
                     System.out.println("|  [2] La Liga         |");
                     System.out.println("|  [3] Bundesliga      |");
@@ -47,7 +47,7 @@ public class Main {
                     System.out.println("|  [5] Brasileirao     |");
                     System.out.println("|  [6] Ligue 1         |");
                     System.out.println("|  [7] Sair            |");
-                    System.out.println("------------------------");
+                    System.out.println("|----------------------|");
                     System.out.println("  Qual liga deseja ver? ");
                     int times = ler.nextInt();
                     switch (times){
@@ -77,13 +77,13 @@ public class Main {
                     }
                     break;
                 case 2:
-                    System.out.println("-------------------------------");
+                    System.out.println("|-----------------------------|");
                     System.out.println("|  [1] Champions              |");
                     System.out.println("|  [2] Libertadores           |");
                     System.out.println("|  [3] Mundial de Clubes      |");
                     System.out.println("|  [4] Cmpeonatos Nacionais   |");
                     System.out.println("|  [5] Sair                   |");
-                    System.out.println("-------------------------------");
+                    System.out.println("|-----------------------------|");
                     System.out.println("  Qual Torneio deseja ver?     ");
                     int torneio = ler.nextInt();
                     switch (torneio){
@@ -98,7 +98,7 @@ public class Main {
                             break;
                         case 4:
                             System.out.println();
-                            System.out.println("-----------------------");
+                            System.out.println("|---------------------|");
                             System.out.println("|  [1] Premier league |");
                             System.out.println("|  [2] La Liga        |");
                             System.out.println("|  [3] Bundesliga     |");
@@ -106,7 +106,7 @@ public class Main {
                             System.out.println("|  [5] Ligue 1        |");
                             System.out.println("|  [6] Serie A TIM    |");
                             System.out.println("|  [7] Sair           |");
-                            System.out.println("-----------------------");
+                            System.out.println("|---------------------|");
                             System.out.println("Qual liga voce quer saber sobre? ");
                             int liga = ler.nextInt();
                             switch (liga) {
@@ -141,11 +141,11 @@ public class Main {
                     }
                     break;
                 case 3:
-                    System.out.println("---------------------------");
+                    System.out.println("|-------------------------|");
                     System.out.println("|  [1] Campeos da Copa    |");
                     System.out.println("|  [2] Historia da Copa   |");
                     System.out.println("|  [3] Sair               |");
-                    System.out.println("---------------------------");
+                    System.out.println("|-------------------------|");
                     System.out.println("  Qual deseja ver? ");
                     int copa = ler.nextInt();
                     switch (copa){
@@ -163,7 +163,7 @@ public class Main {
                     break;
                 case 4:
                     System.out.println();
-                    System.out.println("-------------------------");
+                    System.out.println("|-----------------------|");
                     System.out.println("|  [1] Brasileirao      |");
                     System.out.println("|  [2] Premier League   |");
                     System.out.println("|  [3] La Liga          |");
@@ -171,16 +171,17 @@ public class Main {
                     System.out.println("|  [5] Serie A TIM      |");
                     System.out.println("|  [6] Ligue 1          |");
                     System.out.println("|  [7] Sair             |");
-                    System.out.println("-------------------------");
+                    System.out.println("|-----------------------|");
                     System.out.println("Qual tabela deseja ver?  ");
                     int tabela = ler.nextInt();
                     switch (tabela) {
                         case 1:
-                            System.out.println("       Brasileirao       ");
-                            System.out.println("-------------------------");
+                            System.out.println("_________________________");
+                            System.out.println("|      Brasileirao      |");
+                            System.out.println("|-----------------------|");
                             System.out.println("|  [1] Temporada 2022   |");
                             System.out.println("|  [2] Temporada 2021   |");
-                            System.out.println("-------------------------");
+                            System.out.println("|-----------------------|");
                             System.out.println("Qual ano voce deseja ver? ");
                             int brasil = ler.nextInt();
                             switch (brasil) {
@@ -195,16 +196,17 @@ public class Main {
                             }
                             break;
                         case 2:
-                            System.out.println(" Premier League ");
-                            System.out.println("----------------");
-                            System.out.println("|  [1] ano1    |");
-                            System.out.println("|  [2] ano2    |");
-                            System.out.println("----------------");
+                            System.out.println("______________________________");
+                            System.out.println("|       Premier League       |");
+                            System.out.println("|----------------------------|");
+                            System.out.println("|  [1] Temporada 2021-2022   |");
+                            System.out.println("|  [2] temporada xxxx-xxxx   |");
+                            System.out.println("|----------------------------|");
                             System.out.println("Qual ano voce deseja ver? ");
                             int ing = ler.nextInt();
                             switch (ing) {
                                 case 1:
-
+                                    prem.tabela2021();
                                     break;
                                 case 2:
 
@@ -214,11 +216,12 @@ public class Main {
                             }
                             break;
                         case 3:
-                            System.out.println("    La Liga    ");
-                            System.out.println("---------------");
+                            System.out.println("_______________");
+                            System.out.println("|   La Liga   |");
+                            System.out.println("|-------------|");
                             System.out.println("|  [1] ano1   |");
                             System.out.println("|  [2] ano2   |");
-                            System.out.println("---------------");
+                            System.out.println("|-------------|");
                             System.out.println("Qual ano voce deseja ver? ");
                             int esp = ler.nextInt();
                             switch (esp) {
@@ -233,11 +236,12 @@ public class Main {
                             }
                             break;
                         case 4:
-                            System.out.println("   Bundesliga   ");
-                            System.out.println("----------------");
+                            System.out.println("________________");
+                            System.out.println("|  Bundesliga  |");
+                            System.out.println("|--------------|");
                             System.out.println("|  [1] ano1    |");
                             System.out.println("|  [2] ano2    |");
-                            System.out.println("----------------");
+                            System.out.println("|--------------|");
                             System.out.println("Qual ano voce deseja ver? ");
                             int ale = ler.nextInt();
                             switch (ale) {
@@ -252,11 +256,12 @@ public class Main {
                             }
                             break;
                         case 5:
-                            System.out.println("  Serie A TIM  ");
-                            System.out.println("---------------");
+                            System.out.println("_______________");
+                            System.out.println("| Serie A TIM |");
+                            System.out.println("|-------------|");
                             System.out.println("|  [1] ano1   |");
                             System.out.println("|  [2] ano2   |");
-                            System.out.println("---------------");
+                            System.out.println("|-------------|");
                             System.out.println("Qual ano voce deseja ver? ");
                             int ita = ler.nextInt();
                             switch (ita) {
@@ -271,11 +276,12 @@ public class Main {
                             }
                             break;
                         case 6:
-                            System.out.println("    Ligue 1    ");
-                            System.out.println("---------------");
+                            System.out.println("_______________");
+                            System.out.println("|   Ligue 1   |");
+                            System.out.println("|-------------|");
                             System.out.println("|  [1] ano1   |");
                             System.out.println("|  [2] ano2   |");
-                            System.out.println("---------------");
+                            System.out.println("|-------------|");
                             System.out.println("Qual ano voce deseja ver? ");
                             int fran = ler.nextInt();
                             switch (fran) {
