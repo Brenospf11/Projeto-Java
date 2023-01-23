@@ -107,7 +107,9 @@ public class PremierLeague {
         System.out.println("| 19 Watford         |  23  |  38  |  6   |  5   |  27  |  34  |  77  | -43  |");
         System.out.println("| 20 Norwich         |  22  |  38  |  5   |  7   |  26  |  23  |  84  | -61  |");
         System.out.println("|----------------------------------------------------------------------------|");
+    }
 
+    public void Tabela2020(){
 
     }
 }

@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        boolean continuar;
+        Copa copa = new Copa();
         PremierLeague prem = new PremierLeague();
         LaLiga laLiga = new LaLiga();
         Bundesliga bund = new Bundesliga();
@@ -88,13 +88,70 @@ public class Main {
                     int torneio = ler.nextInt();
                     switch (torneio){
                         case 1:
-
+                            System.out.println("------------------");
+                            System.out.println("[1] Historia");
+                            System.out.println("[2] Campeoes");
+                            System.out.println("[3] Sair");
+                            System.out.println("-------------------");
+                            System.out.println("Qual vc deseja saber sobre");
+                            int campeonato = ler.nextInt();
+                            switch (campeonato){
+                                case 1:
+                                    champions.Historia();
+                                    break;
+                                case 2:
+                                    champions.Campeoes();
+                                    break;
+                                case 3:
+                                    System.exit(0);
+                                    break;
+                                default:
+                                    System.out.println("Insira um numero VALIDO!!!");
+                            }
                             break;
                         case 2:
-
+                            System.out.println("------------------");
+                            System.out.println("[1] Historia");
+                            System.out.println("[2] Campeoes");
+                            System.out.println("[3] Sair");
+                            System.out.println("-------------------");
+                            System.out.println("Qual vc deseja saber sobre");
+                            int liberta = ler.nextInt();
+                            switch (liberta){
+                                case 1:
+                                    libertadores.Historia();
+                                    break;
+                                case 2:
+                                    libertadores.Campeoes();
+                                    break;
+                                case 3:
+                                    System.exit(0);
+                                    break;
+                                default:
+                                    System.out.println("Insira um numero VALIDO!!!");
+                            }
                             break;
                         case 3:
-
+                            System.out.println("------------------");
+                            System.out.println("[1] Historia");
+                            System.out.println("[2] Campeoes");
+                            System.out.println("[3] Sair");
+                            System.out.println("-------------------");
+                            System.out.println("Qual vc deseja saber sobre");
+                            int mundial = ler.nextInt();
+                            switch (mundial){
+                                case 1:
+                                    mundialDeClubes.Historia();
+                                    break;
+                                case 2:
+                                    mundialDeClubes.Campeoes();
+                                    break;
+                                case 3:
+                                    System.exit(0);
+                                    break;
+                                default:
+                                    System.out.println("Insira um numero VALIDO!!!");
+                            }
                             break;
                         case 4:
                             System.out.println();
@@ -111,25 +168,26 @@ public class Main {
                             int liga = ler.nextInt();
                             switch (liga) {
                                 case 1:
-
+                                    nacionais.PremierLeague();
                                     break;
                                 case 2:
-
+                                    nacionais.LaLiga();
                                     break;
                                 case 3:
-
+                                    nacionais.Bundesliga();
                                     break;
                                 case 4:
-
+                                    nacionais.Brasileirao();
                                     break;
                                 case 5:
-
+                                    nacionais.Ligue1();
                                     break;
                                 case 6:
-
+                                    nacionais.SerieATIM();
                                     break;
                                 case 7:
-
+                                    System.exit(0);
+                                    break;
                                 default:
                                     System.out.println("Digite um numero VALIDO!!!");
                             }
@@ -147,16 +205,17 @@ public class Main {
                     System.out.println("|  [3] Sair               |");
                     System.out.println("|-------------------------|");
                     System.out.println("  Qual deseja ver? ");
-                    int copa = ler.nextInt();
-                    switch (copa){
+                    int copas = ler.nextInt();
+                    switch (copas){
                         case 1:
-
+                            copa.Campeoes();
                             break;
                         case 2:
-
+                            copa.Historia();
                             break;
                         case 3:
-
+                            System.exit(0);
+                            break;
                         default:
                             System.out.println("Digite um numero VALIDO!!!");
                     }
