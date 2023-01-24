@@ -13,7 +13,7 @@ public class Brasileirao {
             Flamengo();
         } else if(clube.equalsIgnoreCase("Snatos")){
             Santos();
-        } else if(clube.equalsIgnoreCase("Sao Paulo")){
+        } else if(clube.equalsIgnoreCase("Saopaulo")){
             SaoPaulo();
         } else if(clube.equalsIgnoreCase("Internacional")){
             Internacional();
@@ -247,11 +247,16 @@ public class Brasileirao {
     }
 
     public void Corinthias() {
-        System.out.println("Corinthias");
+        System.out.println(" ██████  ██████  ██████  ██ ███    ██ ████████ ██   ██ ██  █████  ███████ \n" +
+                "██      ██    ██ ██   ██ ██ ████   ██    ██    ██   ██ ██ ██   ██ ██      \n" +
+                "██      ██    ██ ██████  ██ ██ ██  ██    ██    ███████ ██ ███████ ███████ \n" +
+                "██      ██    ██ ██   ██ ██ ██  ██ ██    ██    ██   ██ ██ ██   ██      ██ \n" +
+                " ██████  ██████  ██   ██ ██ ██   ████    ██    ██   ██ ██ ██   ██ ███████ \n" +
+                "                                                                        ");
         System.out.println();
-        System.out.println("|--------------------------------------------------------------------|");
-        System.out.println("| Sobre |");
-        System.out.println("|--------------------------------------------------------------------|");
+        System.out.println("|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|");
+        System.out.println("|                                                                                                        Sobre                                                                                                     |");
+        System.out.println("|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|");
         System.out.println("Sport Club Corinthians Paulista ( português brasileiro:  [isˈpɔɾtʃi ˈklubi koˈɾĩtʃɐ̃s pawˈlistɐ]) é um clube esportivo brasileiro com sede no distrito de Tatuapé , em São Paulo.");
         System.out.println("Apesar de competir em vários esportes diferentes, o Corinthians é conhecido principalmente por seu time de futebol profissional que joga no Campeonato Brasileiro Série A, a primeira divisão do futebol brasileiro,");
         System.out.println("bem como no Campeonato Paulista Série A1, primeira divisão da tradicional competição estadual.");
@@ -259,24 +264,58 @@ public class Brasileirao {
         System.out.println("além de três troféus da Copa do Brasil , uma Supercopa do Brasil e um recorde de 30 campeonatos paulistas.");
         System.out.println("No cenário internacional, o clube conquistou o primeiro Mundial de Clubes da FIFA em 2000 , conquistando-o pela segunda vez em 2012 após sagrar-se campeão da Copa Libertadores da América pela primeira vez naquele mesmo ano.");
         System.out.println();
-        System.out.println("|---------------------------------------------------|");
-        System.out.println("| Titulos |");
-        System.out.println("|----------------------------------------------------|");
-        System.out.println("| Titulos | Campeonato | Temporadas |");
-        System.out.println("| 1x | Copa Libertadores da America | 2012 |");
-        System.out.println("| 1x | Recopa Sul-Americana | 2013 |");
-        System.out.println("| 2x | Mundial de Clubes | 2000 e 2012 |");
-        System.out.println("| 7x | Campeonato Brasileiro | 1990, 1998, 1999, 2005, 2011, 2015 e 2017 |");
-        System.out.println("| 3x | Copa do Brasil | 1995, 2002 e 2009 |");
-        System.out.println("| 1x | Supercopa do Brasil | 1991 |");
-        System.out.println("| 1x | Campeonato Brasileiro - Serie B | 2008 |");
-        System.out.println("| 30x | Campeonato Paulista | 1914 , 1916 , 1922 , 1923 , 1924 , 1928 , 1929 , 1930 , 1937 , 1938 , 1939 , 1941 , 1951 , 1952 , 1954 , 1977 , 1979 , 1982 , 1983 , 1988 , 1995 , 1997 , 1999 , 2001 , 2003 , 2009 , 2013, 2017 , 2018 , 2019");
-
+        System.out.println("|---------------------------------------------------------------------------------------------------|");
+        System.out.println("|                                              Titulos                                              |");
+        System.out.println("|---------------------------------------------------------------------------------------------------|");
+        System.out.println("| Titulos |            Campeonato           |                        Temporadas                     |");
+        System.out.println("|   1x    | Copa Libertadores da America    | 2012                                                  |");
+        System.out.println("|   1x    | Recopa Sul-Americana            | 2013                                                  |");
+        System.out.println("|   2x    | Mundial de Clubes               | 2000 e 2012                                           |");
+        System.out.println("|   7x    | Campeonato Brasileiro           | 1990, 1998, 1999, 2005, 2011, 2015 e 2017             |");
+        System.out.println("|   3x    | Copa do Brasil                  | 1995, 2002 e 2009                                     |");
+        System.out.println("|   1x    | Supercopa do Brasil             | 1991                                                  |");
+        System.out.println("|   1x    | Campeonato Brasileiro - Serie B | 2008                                                  |");
+        System.out.println("|   30x   | Campeonato Paulista             | 1914 , 1916 , 1922 , 1923 , 1924 , 1928 , 1929 , 1930 |");
+        System.out.println("|                                             1937 , 1938 , 1939 , 1941 , 1951 , 1952 , 1954 , 1977 |");
+        System.out.println("|                                             1979 , 1982 , 1983 , 1988 , 1995 , 1997 , 1999 , 2001 |");
+        System.out.println("|                                             2003 , 2009 , 2013, 2017 , 2018 , 2019                |");
+        System.out.println("|---------------------------------------------------------------------------------------------------|");
+        System.out.println();
     }
-
     public void SaoPaulo() {
-        System.out.println("Sao Paulo");
-        System.out.println("-");
+        System.out.println("███████  █████   ██████      ██████   █████  ██    ██ ██       ██████  \n" +
+                "██      ██   ██ ██    ██     ██   ██ ██   ██ ██    ██ ██      ██    ██ \n" +
+                "███████ ███████ ██    ██     ██████  ███████ ██    ██ ██      ██    ██ \n" +
+                "     ██ ██   ██ ██    ██     ██      ██   ██ ██    ██ ██      ██    ██ \n" +
+                "███████ ██   ██  ██████      ██      ██   ██  ██████  ███████  ██████  \n" +
+                "                                                                       ");
+        System.out.println();
+        System.out.println("|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|");
+        System.out.println("|                                                                                                                                                 Sobre                                                                                                                                     |");
+        System.out.println("|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|");
+        System.out.println("São Paulo Futebol Clube é um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado homônimo. Foi fundado em 25 de janeiro de 1930,");
+        System.out.println("tendo interrompido suas atividades em maio de 1935, e as retomado em dezembro do mesmo ano.");
+        System.out.println("No futebol, é um dos clubes mais bem sucedidos do Brasil, sendo que, dentre seus principais títulos, destacam-se três Mundiais (recorde absoluto a nível nacional), três Copas Libertadores (recorde nacional compartilhado com Flamengo, Grêmio, Palmeiras e Santos),");
+        System.out.println("uma Copa Sul-Americana, seis Campeonatos Brasileiros e vinte e dois Campeonatos Paulistas. Quanto a títulos internacionais, o São Paulo, com 12 conquistas, é o terceiro clube da América do Sul com o maior número de troféus, ficando atrás somente de Boca Juniors e Independiente.");
+        System.out.println("No que diz respeito ao somatório de títulos oficiais de abrangência nacional e internacional de clubes brasileiros, em janeiro de 2021, o São Paulo figurava como o maior campeão do Brasil, com dezoito conquistas. A agremiação também possui tradição em outros esportes que não o futebol,");
+        System.out.println("como no atletismo, no qual seu atleta na modalidade salto triplo, Adhemar Ferreira da Silva, foi o primeiro bicampeão olímpico do país (Olimpíadas de Helsinque em 1952 – em que superou o recorde mundial na modalidade – e Olimpíadas de Melbourne em 1956).");
+        System.out.println("Depois de Helsinque, Adhemar superou pela segunda vez o recorde mundial na modalidade, nos Jogos Pan-Americanos do México em 1955. Esses recordes são representados pelas duas estrelas douradas no escudo do clube.");
+        System.out.println();
+        System.out.println("|----------------------------------------------------------------------------------------|");
+        System.out.println("|                                              Titulo                                    |");
+        System.out.println("|----------------------------------------------------------------------------------------|");
+        System.out.println("| Titulo |           Campeonato         |                     Temporadas                 |");
+        System.out.println("|   1x   | Mundial de Clubes            | 2005                                           |");
+        System.out.println("|   2x   | Copa Intercontinental        | 1992 e 1993                                    |");
+        System.out.println("|   3x   | Copa Libertadores da America | 1992, 1993 e 2005                              |");
+        System.out.println("|   1x   | Copa Sul-Americana           | 2012                                           |");
+        System.out.println("|   2x   | Recopa Sul-Americana         | 1994 e 1994                                    |");
+        System.out.println("|   6x   | Campeonato Brasileiro        | 1977, 1986, 1991, 2006, 2007 e 2008            |");
+        System.out.println("|   22x  | Campeonato Paulista          | 1931, 1943, 1945, 1946, 1948, 1949, 1953, 1957 |");
+        System.out.println("|                                         1970, 1971, 1975, 1980, 1981, 1985, 1987       |");
+        System.out.println("|                                         1989, 1991, 1992, 1998, 2000, 2005 e 2021      |");
+        System.out.println("|----------------------------------------------------------------------------------------|");
+        System.out.println();
     }
 
     public void Santos() {
