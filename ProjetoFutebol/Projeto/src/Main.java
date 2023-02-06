@@ -84,15 +84,15 @@ public class Main {
                     System.out.println("|  [4] Cmpeonatos Nacionais   |");
                     System.out.println("|  [5] Sair                   |");
                     System.out.println("|-----------------------------|");
-                    System.out.println("  Qual Torneio deseja ver?     ");
+                    System.out.println("Qual Torneio deseja ver?       ");
                     int torneio = ler.nextInt();
                     switch (torneio){
                         case 1:
-                            System.out.println("------------------");
-                            System.out.println("[1] Historia");
-                            System.out.println("[2] Campeoes");
-                            System.out.println("[3] Sair");
-                            System.out.println("-------------------");
+                            System.out.println("|-----------------|");
+                            System.out.println("|  [1] Historia   |");
+                            System.out.println("|  [2] Campeoes   |");
+                            System.out.println("|  [3] Sair       |");
+                            System.out.println("|-----------------|");
                             System.out.println("Qual vc deseja saber sobre");
                             int campeonato = ler.nextInt();
                             switch (campeonato){
@@ -110,11 +110,11 @@ public class Main {
                             }
                             break;
                         case 2:
-                            System.out.println("------------------");
-                            System.out.println("[1] Historia");
-                            System.out.println("[2] Campeoes");
-                            System.out.println("[3] Sair");
-                            System.out.println("-------------------");
+                            System.out.println("|----------------|");
+                            System.out.println("| [1] Historia   |");
+                            System.out.println("| [2] Campeoes   |");
+                            System.out.println("| [3] Sair       |");
+                            System.out.println("|----------------|");
                             System.out.println("Qual vc deseja saber sobre");
                             int liberta = ler.nextInt();
                             switch (liberta){
@@ -132,11 +132,11 @@ public class Main {
                             }
                             break;
                         case 3:
-                            System.out.println("------------------");
-                            System.out.println("[1] Historia");
-                            System.out.println("[2] Campeoes");
-                            System.out.println("[3] Sair");
-                            System.out.println("-------------------");
+                            System.out.println("|----------------|");
+                            System.out.println("| [1] Historia   |");
+                            System.out.println("| [2] Campeoes   |");
+                            System.out.println("| [3] Sair       |");
+                            System.out.println("|----------------|");
                             System.out.println("Qual vc deseja saber sobre");
                             int mundial = ler.nextInt();
                             switch (mundial){
@@ -235,7 +235,7 @@ public class Main {
                     int tabela = ler.nextInt();
                     switch (tabela) {
                         case 1:
-                            System.out.println("_________________________");
+                            System.out.println("|-----------------------|");
                             System.out.println("|      Brasileirao      |");
                             System.out.println("|-----------------------|");
                             System.out.println("|  [1] Temporada 2022   |");
@@ -255,7 +255,7 @@ public class Main {
                             }
                             break;
                         case 2:
-                            System.out.println("______________________________");
+                            System.out.println("|----------------------------|");
                             System.out.println("|       Premier League       |");
                             System.out.println("|----------------------------|");
                             System.out.println("|  [1] Temporada 2021-2022   |");
@@ -275,7 +275,7 @@ public class Main {
                             }
                             break;
                         case 3:
-                            System.out.println("_______________");
+                            System.out.println("|-------------|");
                             System.out.println("|   La Liga   |");
                             System.out.println("|-------------|");
                             System.out.println("|  [1] ano1   |");
@@ -295,7 +295,7 @@ public class Main {
                             }
                             break;
                         case 4:
-                            System.out.println("________________");
+                            System.out.println("|--------------|");
                             System.out.println("|  Bundesliga  |");
                             System.out.println("|--------------|");
                             System.out.println("|  [1] ano1    |");
@@ -315,7 +315,7 @@ public class Main {
                             }
                             break;
                         case 5:
-                            System.out.println("_______________");
+                            System.out.println("|-------------|");
                             System.out.println("| Serie A TIM |");
                             System.out.println("|-------------|");
                             System.out.println("|  [1] ano1   |");
@@ -335,7 +335,7 @@ public class Main {
                             }
                             break;
                         case 6:
-                            System.out.println("_______________");
+                            System.out.println("|-------------|");
                             System.out.println("|   Ligue 1   |");
                             System.out.println("|-------------|");
                             System.out.println("|  [1] ano1   |");

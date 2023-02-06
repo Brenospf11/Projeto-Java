@@ -11,9 +11,9 @@ public class Brasileirao {
             Gremio();
         } else if(clube.equalsIgnoreCase("Flamengo")){
             Flamengo();
-        } else if(clube.equalsIgnoreCase("Snatos")){
+        } else if(clube.equalsIgnoreCase("Santos")){
             Santos();
-        } else if(clube.equalsIgnoreCase("Saopaulo")){
+        } else if(clube.equalsIgnoreCase("SaoPaulo")){
             SaoPaulo();
         } else if(clube.equalsIgnoreCase("Internacional")){
             Internacional();
@@ -25,7 +25,7 @@ public class Brasileirao {
             Palmeiras();
         } else if(clube.equalsIgnoreCase("Corinthias")){
             Corinthias();
-        } else if(clube.equalsIgnoreCase("Atletico Mineiro")){
+        } else if(clube.equalsIgnoreCase("AtleticoMG")){
             AtleticoMG();
         }
     }
@@ -319,13 +319,65 @@ public class Brasileirao {
     }
 
     public void Santos() {
-        System.out.println("Santos");
-        System.out.println("-");
+        System.out.println("███████  █████  ███    ██ ████████  ██████  ███████ \n" +
+                "██      ██   ██ ████   ██    ██    ██    ██ ██      \n" +
+                "███████ ███████ ██ ██  ██    ██    ██    ██ ███████ \n" +
+                "     ██ ██   ██ ██  ██ ██    ██    ██    ██      ██ \n" +
+                "███████ ██   ██ ██   ████    ██     ██████  ███████ \n" +
+                "                                                    ");
+        System.out.println();
+        System.out.println("|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|");
+        System.out.println("|                                                                                                                                    Sobre                                                                                                                                            |");
+        System.out.println("|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|");
+        System.out.println("Santos Futebol Clube é um clube poliesportivo brasileiro da cidade de Santos, São Paulo. Foi fundado em 14 de abril de 1912, suas cores iniciais seriam o branco, azul e dourado, mas um ano após a sua fundação, ficou decidido que as cores do clube passariam a ser branco e preto.");
+        System.out.println("Manda as suas partidas no Estádio Urbano Caldeira, mais conhecido como Vila Belmiro. Seus maiores rivais no futebol são o Palmeiras, com quem disputa o Clássico da Saudade; o Corinthians, com quem disputa o Clássico Alvinegro; e o São Paulo, com quem disputa o San-São.");
+        System.out.println("O Santos tornou-se no futebol um dos clubes mais bem-sucedidos do Brasil e reconhecidos mundialmente. Ficou famoso na década de 60 pelos vários títulos internacionais e nacionais conquistados e por ter revelado Pelé, considerado por muitos como o maior jogador da história do esporte,");
+        System.out.println("e segundo a FIFA, o melhor jogador do século XX, além disso, também tem o marco de maior artilheiro da história do Santos e da Seleção Brasileira. Abaixo de Pelé com 77 gols pela seleção em jogos oficiais, está também outro jogador revelado pelo clube, Neymar.");
+        System.out.println();
+        System.out.println("|------------------------------------------------------------------------------------------------------------|");
+        System.out.println("|                                              Titulos                                                       |");
+        System.out.println("|------------------------------------------------------------------------------------------------------------|");
+        System.out.println("| Titulos |          Campeonato          |                            Temporadas                             |");
+        System.out.println("|    2x   | Copa Intercontinental        | 1962 e 1963                                                       |");
+        System.out.println("|    3x   | Copa Libertadores da America | 1962, 1963 e 2011                                                 |");
+        System.out.println("|    1x   | Recopa Sul-Americana         | 2012                                                              |");
+        System.out.println("|    1x   | Copa do Brasil               | 2010                                                              |");
+        System.out.println("|    8x   | Campeonato Brasileiro        | 1961, 1962, 1963, 1964, 1965, 1968, 2002 e 2004                   |");
+        System.out.println("|    22x  | Campeonato Paulista          | 1935, 1955, 1956, 1958, 1960, 1961, 1962, 1964, 1965,  1967, 1968 |");
+        System.out.println("|                                          1969, 1973, 1978, 1984, 2006, 2007, 2010, 2011, 2012, 2015 e 2016 |");
+        System.out.println("|------------------------------------------------------------------------------------------------------------|");
+        System.out.println();
     }
-
     public void AtleticoMG() {
-        System.out.println("Atletico-MG");
-        System.out.println("-");
+        System.out.println(" █████  ████████ ██      ███████ ████████ ██  ██████  ██████        ███    ███  ██████  \n" +
+                "██   ██    ██    ██      ██         ██    ██ ██      ██    ██       ████  ████ ██       \n" +
+                "███████    ██    ██      █████      ██    ██ ██      ██    ██ █████ ██ ████ ██ ██   ███ \n" +
+                "██   ██    ██    ██      ██         ██    ██ ██      ██    ██       ██  ██  ██ ██    ██ \n" +
+                "██   ██    ██    ███████ ███████    ██    ██  ██████  ██████        ██      ██  ██████  \n" +
+                "                                                                                        ");
+        System.out.println();
+        System.out.println("|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|");
+        System.out.println("|                                                                                                     Sobre                                                                                                                                                                                                       |");
+        System.out.println("|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|");
+        System.out.println("O Clube Atlético Mineiro (conhecido apenas por Atlético Mineiro ou simplesmente Galo e cujo acrônimo é CAM) é um clube brasileiro de futebol sediado na cidade de Belo Horizonte, Minas Gerais. Foi fundado em 25 de março de 1908 por um grupo de estudantes, tem como suas cores tradicionais o preto e o branco.");
+        System.out.println("O clube teve como primeiro nome Athlético Mineiro Football Club, adotando, em 1913, seu nome definitivo. Seu símbolo e alcunha mais popular é o Galo, mascote oficial no final da década de 1930.");
+        System.out.println();
+        System.out.println("|--------------------------------------------------------------------------------------------------------------------|");
+        System.out.println("|                                                  Titulos                                                           |");
+        System.out.println("|--------------------------------------------------------------------------------------------------------------------|");
+        System.out.println("| Titulos |           Campeonato            |                              Temporadas                                |");
+        System.out.println("|    1x   | Copa Livertadores da America    | 2013                                                                   |");
+        System.out.println("|    1x   | Recopa Sul-Americana            | 2014                                                                   |");
+        System.out.println("|    2x   | Campeonato Brasileiro           | 1971 e 2021                                                            |");
+        System.out.println("|    2x   | Copa do Brasil                  | 2014 e 2021                                                            |");
+        System.out.println("|    1x   | Supercopa do Brasil             | 2022                                                                   |");
+        System.out.println("|    1x   | Campeonato Brasileiro - Serie B | 2006                                                                   |");
+        System.out.println("|    47x  | Campeonato Mineiro              | 1915, 1926, 1927, 1931, 1932, 1936, 1938, 1939, 1941, 1942, 1946, 1947 |");
+        System.out.println("|                                             1949, 1950, 1952, 1953, 1954, 1955, 1956, 1958, 1962, 1963, 1970, 1976 |");
+        System.out.println("|                                             1978, 1979, 1980, 1981, 1982, 1983, 1985, 1986, 1988, 1989, 1991, 1995 |");
+        System.out.println("|                                             1999, 2000, 2007, 2010, 2012, 2013, 2015, 2017, 2020, 2021 e 2022      |");
+        System.out.println("|--------------------------------------------------------------------------------------------------------------------|");
+        System.out.println();
     }
     public void tabela2022(){
         System.out.println("|-----------------------------------------------------------------------------|");
@@ -355,7 +407,6 @@ public class Brasileirao {
         System.out.println("|-----------------------------------------------------------------------------|");
     }
     public void tabela2021(){
-
         System.out.println("|-----------------------------------------------------------------------------|");
         System.out.println("|                          Capeonato Brasileiro de 2021                       |");
         System.out.println("|-----------------------------------------------------------------------------|");
